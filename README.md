@@ -1,8 +1,10 @@
 # Openai_embeddings_2
 
+This is a demo project where embeddings are fetched from openai for 4 questions and then similarity is calculated between them
+
 ## Questions
 
-### we have one question which will user ask, 
+### we have one question which will user ask:
 
 **question_1**:
 
