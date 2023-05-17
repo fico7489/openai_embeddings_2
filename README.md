@@ -45,3 +45,16 @@ curl --location 'https://api.openai.com/v1/embeddings' \
 ```
 
 Embeddings for each question is stored in folder "embeddings"
+
+### Similarity
+
+Similarity is calculated between question_1 and other 3 questions, and the score is:
+
+```
+question_1 -> question_2 = 0.8858072768594865
+question_1 -> question_3 = 0.9092493201706864
+question_1 -> question_4 = 1.0000000834381055
+```
+
+The python code for calculating similarity is in **similarity.py** file
+
